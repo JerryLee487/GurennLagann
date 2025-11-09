@@ -1,0 +1,59 @@
+/* Componentes específicos: menú, galería, multimedia, redes */
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav a {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #0a7a7a;
+  color: white;
+}
+
+.contenido {
+  font-size: 1.1rem;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.galeria img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.video-contenedor video,
+.audio-contenedor audio {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 0.5rem;
+}
+
+.redes {
+  margin-top: 1rem;
+}
+
+.redes a {
+  color: var(--color-texto);
+  font-size: 1.8rem;
+  margin: 0 0.75rem;
+}
+
+.redes a:hover {
+  color: var(--color-primario);
+}

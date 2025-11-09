@@ -1,0 +1,6 @@
+/* main.css — archivo principal que organiza todos los estilos */
+
+@import url('css/base.css');
+@import url('css/layout.css');
+@import url('css/components.css');
+@import url('css/responsive.css');
